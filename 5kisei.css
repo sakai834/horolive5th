@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* ==============　ページ全体の書式指定　============== */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image:url("ねぽらぼ.jpg");
+    background-size: 10%;
+    height: auto;
+}
+#container{
+    width: 1200px;
+    height: 50%;
+    margin: 0px auto;
+    background-color: #fdfcfc;
+    border-left: 0px solid #0dd5d5;
+    border-right: 0px solid #0bd4d4;
+}
+
+/* ===============　ヘッダーの書式指定　=============== */
+header{
+    height: 200px;
+    padding: 20px;
+    padding-bottom: 30px;
+    width: auto;
+    background-image: url("５期生.png");
+}
+#header-title{
+    background: linear-gradient(90deg, #04f3fc, #51ced0 , #08eefa);
+  background: -webkit-linear-gradient(50deg, #01d6fb, #070ff7 , #00eeff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font: bold 44px sans-serif;
+}
+
+/* ===============　メニューの書式指定　=============== */
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background-color:#0ae1da;
+}
+nav a{
+    display: block;
+    width: 200px;
+    padding: 10px 20px ;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font: bold 14px/20px sans-serif;
+}
+nav a:hover{
+    background-color: #0a8a86;
+}
+
+/* ================　メインの書式指定　================ */
+#main{
+    padding: 30px;
+}
+
+
+/* ================　各要素の書式指定　================ */
+h1{
+    background-color: #0ae1da;
+    border-radius: 5px;
+    border-left: solid 15px #0e938f;
+    padding: 6px 10px 4px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px #999999;
+    font: bold 18px sans-serif;
+    color: #FFFFFF;
+}
+li {
+    display: inline-block;
+    justify-content: space-between;
+    }
+
+img{
+    width: 100%;
+}
+
+.p2{
+    display: inline-block;
+    justify-content: space-between;
+}
+.box12{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #fcfdfe;
+    background: #ef5d5d;
+    border-bottom: solid 6px #deb3aa;
+    border-radius: 9px;
+}
+.box12 p {
+    margin: 0; 
+    padding: 0;
+}
+.flame21{
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    background: #0ae1da;
+    box-shadow: 0px 0px 0px 10px #0ae1da;
+    border: 2px dashed #fff;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    a{
+        text-decoration: none;
+    }
+    .scroll-up {
+        opacity: 0; 
+        visibility: hidden;
+        transform: translateY(50px);
+        transition: all 1s;
+      }
+      .scroll-up.is-show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+      }
+
+
+
+
+/* ===============　フッターの書式指定　=============== */
+footer{
+    background-color: #0ae1da;
+    padding: 10px;
+    font: 12px sans-serif;
+    text-align: right;
+    color: #FFFFFF;
+}
